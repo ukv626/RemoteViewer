@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014A2A2915824896000A06C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A2A2815824896000A06C3 /* UIKit.framework */; };
+		014A2A2B15824896000A06C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A2A2A15824896000A06C3 /* Foundation.framework */; };
+		014A2A2D15824896000A06C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A2A2C15824896000A06C3 /* CoreGraphics.framework */; };
+		014A2A3315824896000A06C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 014A2A3115824896000A06C3 /* InfoPlist.strings */; };
+		014A2A3515824896000A06C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A3415824896000A06C3 /* main.m */; };
+		014A2A5D1582492E000A06C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A2A5C1582492E000A06C3 /* CFNetwork.framework */; };
+		014A2A6D15824979000A06C3 /* KTPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 014A2A5F15824979000A06C3 /* KTPhotoBrowser.bundle */; };
+		014A2A6E15824979000A06C3 /* KTPhotoBrowserGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6215824979000A06C3 /* KTPhotoBrowserGlobal.m */; };
+		014A2A6F15824979000A06C3 /* KTPhotoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6415824979000A06C3 /* KTPhotoScrollViewController.m */; };
+		014A2A7015824979000A06C3 /* KTPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6615824979000A06C3 /* KTPhotoView.m */; };
+		014A2A7115824979000A06C3 /* KTThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6815824979000A06C3 /* KTThumbsView.m */; };
+		014A2A7215824979000A06C3 /* KTThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6A15824979000A06C3 /* KTThumbsViewController.m */; };
+		014A2A7315824979000A06C3 /* KTThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A6C15824979000A06C3 /* KTThumbView.m */; };
+		014A2A7415824A36000A06C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A491582491E000A06C3 /* AppDelegate.m */; };
+		014A2A7515824A3D000A06C3 /* BaseDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A4B1582491E000A06C3 /* BaseDriver.m */; };
+		014A2A7615824A44000A06C3 /* ConnectionsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A4D1582491E000A06C3 /* ConnectionsList.m */; };
+		014A2A7715824A4C000A06C3 /* DirectoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A4F1582491E000A06C3 /* DirectoryList.m */; };
+		014A2A7815824A59000A06C3 /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A501582491E000A06C3 /* empty.cpp */; };
+		014A2A7915824A67000A06C3 /* EntryLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A521582491E000A06C3 /* EntryLs.m */; };
+		014A2A7A15824A6F000A06C3 /* FtpDriver.mm in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A541582491E000A06C3 /* FtpDriver.mm */; };
+		014A2A7B15824A78000A06C3 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A571582491E000A06C3 /* LoginView.m */; };
+		014A2A7C15824A80000A06C3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A591582491E000A06C3 /* MBProgressHUD.m */; };
+		014A2A7D15824A87000A06C3 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A2A5B1582491E000A06C3 /* XMLReader.m */; };
+		014A2A7F15824ADB000A06C3 /* libchilkatIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A2A7E15824ADB000A06C3 /* libchilkatIos.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014A2A2415824896000A06C3 /* RemoteViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014A2A2815824896000A06C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		014A2A2A15824896000A06C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		014A2A2C15824896000A06C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		014A2A3015824896000A06C3 /* RemoteViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemoteViewer-Info.plist"; sourceTree = "<group>"; };
+		014A2A3215824896000A06C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		014A2A3415824896000A06C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		014A2A3615824896000A06C3 /* RemoteViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemoteViewer-Prefix.pch"; sourceTree = "<group>"; };
+		014A2A481582491E000A06C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		014A2A491582491E000A06C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		014A2A4A1582491E000A06C3 /* BaseDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDriver.h; sourceTree = "<group>"; };
+		014A2A4B1582491E000A06C3 /* BaseDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDriver.m; sourceTree = "<group>"; };
+		014A2A4C1582491E000A06C3 /* ConnectionsList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionsList.h; sourceTree = "<group>"; };
+		014A2A4D1582491E000A06C3 /* ConnectionsList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionsList.m; sourceTree = "<group>"; };
+		014A2A4E1582491E000A06C3 /* DirectoryList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectoryList.h; sourceTree = "<group>"; };
+		014A2A4F1582491E000A06C3 /* DirectoryList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectoryList.m; sourceTree = "<group>"; };
+		014A2A501582491E000A06C3 /* empty.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
+		014A2A511582491E000A06C3 /* EntryLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryLs.h; sourceTree = "<group>"; };
+		014A2A521582491E000A06C3 /* EntryLs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryLs.m; sourceTree = "<group>"; };
+		014A2A531582491E000A06C3 /* FtpDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpDriver.h; sourceTree = "<group>"; };
+		014A2A541582491E000A06C3 /* FtpDriver.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FtpDriver.mm; sourceTree = "<group>"; };
+		014A2A551582491E000A06C3 /* LoadingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingDelegate.h; sourceTree = "<group>"; };
+		014A2A561582491E000A06C3 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		014A2A571582491E000A06C3 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		014A2A581582491E000A06C3 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		014A2A591582491E000A06C3 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		014A2A5A1582491E000A06C3 /* XMLReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		014A2A5B1582491E000A06C3 /* XMLReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		014A2A5C1582492E000A06C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		014A2A5F15824979000A06C3 /* KTPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KTPhotoBrowser.bundle; sourceTree = "<group>"; };
+		014A2A6015824979000A06C3 /* KTPhotoBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserDataSource.h; sourceTree = "<group>"; };
+		014A2A6115824979000A06C3 /* KTPhotoBrowserGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoBrowserGlobal.h; sourceTree = "<group>"; };
+		014A2A6215824979000A06C3 /* KTPhotoBrowserGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoBrowserGlobal.m; sourceTree = "<group>"; };
+		014A2A6315824979000A06C3 /* KTPhotoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoScrollViewController.h; sourceTree = "<group>"; };
+		014A2A6415824979000A06C3 /* KTPhotoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoScrollViewController.m; sourceTree = "<group>"; };
+		014A2A6515824979000A06C3 /* KTPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPhotoView.h; sourceTree = "<group>"; };
+		014A2A6615824979000A06C3 /* KTPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPhotoView.m; sourceTree = "<group>"; };
+		014A2A6715824979000A06C3 /* KTThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsView.h; sourceTree = "<group>"; };
+		014A2A6815824979000A06C3 /* KTThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsView.m; sourceTree = "<group>"; };
+		014A2A6915824979000A06C3 /* KTThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbsViewController.h; sourceTree = "<group>"; };
+		014A2A6A15824979000A06C3 /* KTThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbsViewController.m; sourceTree = "<group>"; };
+		014A2A6B15824979000A06C3 /* KTThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThumbView.h; sourceTree = "<group>"; };
+		014A2A6C15824979000A06C3 /* KTThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThumbView.m; sourceTree = "<group>"; };
+		014A2A7E15824ADB000A06C3 /* libchilkatIos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libchilkatIos.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014A2A2115824896000A06C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A2A5D1582492E000A06C3 /* CFNetwork.framework in Frameworks */,
+				014A2A2915824896000A06C3 /* UIKit.framework in Frameworks */,
+				014A2A2B15824896000A06C3 /* Foundation.framework in Frameworks */,
+				014A2A2D15824896000A06C3 /* CoreGraphics.framework in Frameworks */,
+				014A2A7F15824ADB000A06C3 /* libchilkatIos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014A2A1915824895000A06C3 = {
+			isa = PBXGroup;
+			children = (
+				014A2A2E15824896000A06C3 /* RemoteViewer */,
+				014A2A2715824896000A06C3 /* Frameworks */,
+				014A2A2515824896000A06C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014A2A2515824896000A06C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014A2A2415824896000A06C3 /* RemoteViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014A2A2715824896000A06C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014A2A5C1582492E000A06C3 /* CFNetwork.framework */,
+				014A2A2815824896000A06C3 /* UIKit.framework */,
+				014A2A2A15824896000A06C3 /* Foundation.framework */,
+				014A2A2C15824896000A06C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		014A2A2E15824896000A06C3 /* RemoteViewer */ = {
+			isa = PBXGroup;
+			children = (
+				014A2A5E15824979000A06C3 /* KTPhotoBrowser */,
+				014A2A481582491E000A06C3 /* AppDelegate.h */,
+				014A2A491582491E000A06C3 /* AppDelegate.m */,
+				014A2A4A1582491E000A06C3 /* BaseDriver.h */,
+				014A2A4B1582491E000A06C3 /* BaseDriver.m */,
+				014A2A4C1582491E000A06C3 /* ConnectionsList.h */,
+				014A2A4D1582491E000A06C3 /* ConnectionsList.m */,
+				014A2A4E1582491E000A06C3 /* DirectoryList.h */,
+				014A2A4F1582491E000A06C3 /* DirectoryList.m */,
+				014A2A501582491E000A06C3 /* empty.cpp */,
+				014A2A511582491E000A06C3 /* EntryLs.h */,
+				014A2A521582491E000A06C3 /* EntryLs.m */,
+				014A2A531582491E000A06C3 /* FtpDriver.h */,
+				014A2A541582491E000A06C3 /* FtpDriver.mm */,
+				014A2A551582491E000A06C3 /* LoadingDelegate.h */,
+				014A2A561582491E000A06C3 /* LoginView.h */,
+				014A2A571582491E000A06C3 /* LoginView.m */,
+				014A2A581582491E000A06C3 /* MBProgressHUD.h */,
+				014A2A591582491E000A06C3 /* MBProgressHUD.m */,
+				014A2A5A1582491E000A06C3 /* XMLReader.h */,
+				014A2A5B1582491E000A06C3 /* XMLReader.m */,
+				014A2A7E15824ADB000A06C3 /* libchilkatIos.a */,
+				014A2A2F15824896000A06C3 /* Supporting Files */,
+			);
+			path = RemoteViewer;
+			sourceTree = "<group>";
+		};
+		014A2A2F15824896000A06C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				014A2A3015824896000A06C3 /* RemoteViewer-Info.plist */,
+				014A2A3115824896000A06C3 /* InfoPlist.strings */,
+				014A2A3415824896000A06C3 /* main.m */,
+				014A2A3615824896000A06C3 /* RemoteViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		014A2A5E15824979000A06C3 /* KTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				014A2A5F15824979000A06C3 /* KTPhotoBrowser.bundle */,
+				014A2A6015824979000A06C3 /* KTPhotoBrowserDataSource.h */,
+				014A2A6115824979000A06C3 /* KTPhotoBrowserGlobal.h */,
+				014A2A6215824979000A06C3 /* KTPhotoBrowserGlobal.m */,
+				014A2A6315824979000A06C3 /* KTPhotoScrollViewController.h */,
+				014A2A6415824979000A06C3 /* KTPhotoScrollViewController.m */,
+				014A2A6515824979000A06C3 /* KTPhotoView.h */,
+				014A2A6615824979000A06C3 /* KTPhotoView.m */,
+				014A2A6715824979000A06C3 /* KTThumbsView.h */,
+				014A2A6815824979000A06C3 /* KTThumbsView.m */,
+				014A2A6915824979000A06C3 /* KTThumbsViewController.h */,
+				014A2A6A15824979000A06C3 /* KTThumbsViewController.m */,
+				014A2A6B15824979000A06C3 /* KTThumbView.h */,
+				014A2A6C15824979000A06C3 /* KTThumbView.m */,
+			);
+			path = KTPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014A2A2315824896000A06C3 /* RemoteViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014A2A4515824897000A06C3 /* Build configuration list for PBXNativeTarget "RemoteViewer" */;
+			buildPhases = (
+				014A2A2015824896000A06C3 /* Sources */,
+				014A2A2115824896000A06C3 /* Frameworks */,
+				014A2A2215824896000A06C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteViewer;
+			productName = RemoteViewer;
+			productReference = 014A2A2415824896000A06C3 /* RemoteViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014A2A1B15824895000A06C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 014A2A1E15824895000A06C3 /* Build configuration list for PBXProject "RemoteViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 014A2A1915824895000A06C3;
+			productRefGroup = 014A2A2515824896000A06C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014A2A2315824896000A06C3 /* RemoteViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014A2A2215824896000A06C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A2A3315824896000A06C3 /* InfoPlist.strings in Resources */,
+				014A2A6D15824979000A06C3 /* KTPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014A2A2015824896000A06C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A2A7D15824A87000A06C3 /* XMLReader.m in Sources */,
+				014A2A7C15824A80000A06C3 /* MBProgressHUD.m in Sources */,
+				014A2A7B15824A78000A06C3 /* LoginView.m in Sources */,
+				014A2A7A15824A6F000A06C3 /* FtpDriver.mm in Sources */,
+				014A2A7915824A67000A06C3 /* EntryLs.m in Sources */,
+				014A2A7815824A59000A06C3 /* empty.cpp in Sources */,
+				014A2A7715824A4C000A06C3 /* DirectoryList.m in Sources */,
+				014A2A7615824A44000A06C3 /* ConnectionsList.m in Sources */,
+				014A2A7515824A3D000A06C3 /* BaseDriver.m in Sources */,
+				014A2A7415824A36000A06C3 /* AppDelegate.m in Sources */,
+				014A2A3515824896000A06C3 /* main.m in Sources */,
+				014A2A6E15824979000A06C3 /* KTPhotoBrowserGlobal.m in Sources */,
+				014A2A6F15824979000A06C3 /* KTPhotoScrollViewController.m in Sources */,
+				014A2A7015824979000A06C3 /* KTPhotoView.m in Sources */,
+				014A2A7115824979000A06C3 /* KTThumbsView.m in Sources */,
+				014A2A7215824979000A06C3 /* KTThumbsViewController.m in Sources */,
+				014A2A7315824979000A06C3 /* KTThumbView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		014A2A3115824896000A06C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014A2A3215824896000A06C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014A2A4315824897000A06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014A2A4415824897000A06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014A2A4615824897000A06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteViewer/RemoteViewer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/ukv/Documents/lib/Chilkat-9.3.1-IOS-4.3/include/**";
+				INFOPLIST_FILE = "RemoteViewer/RemoteViewer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RemoteViewer\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		014A2A4715824897000A06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemoteViewer/RemoteViewer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/ukv/Documents/lib/Chilkat-9.3.1-IOS-4.3/include/**";
+				INFOPLIST_FILE = "RemoteViewer/RemoteViewer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RemoteViewer\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014A2A1E15824895000A06C3 /* Build configuration list for PBXProject "RemoteViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A2A4315824897000A06C3 /* Debug */,
+				014A2A4415824897000A06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014A2A4515824897000A06C3 /* Build configuration list for PBXNativeTarget "RemoteViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A2A4615824897000A06C3 /* Debug */,
+				014A2A4715824897000A06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014A2A1B15824895000A06C3 /* Project object */;
+}
